@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0099ff;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 40px auto;
+  padding: 20px;
+  width: 90%;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  margin-bottom: 50px;
+  gap: 15px;
+}
+
+form input {
+  width: 100%;
+  flex: 1;
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+form button[type='submit'] {
+  border: none;
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form button[type='submit'] span {
+  color: rgba(40, 38, 38, 0.8);
+  font-size: 33px;
+  font-weight: 600;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 10px 15px;
+  border: 1px solid #b5b3b3;
+  text-align: center;
+}
+
+th {
+  font-size: 25px;
+}
+
+td {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+thead td:nth-child(1) {
+  max-width: 100px;
+}
+
+tbody td:nth-child(1) form {
+  margin-bottom: 0;
+}
+
+select, tbody button {
+  border: none;
+}
+
+select {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  outline: none;
+}
+
+tbody button {
+  padding: 7px;
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+tbody button span {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+tbody button:nth-child(1) {
+  margin-right: 5px;
+  background-color: rgba(237, 211, 50, 0.6);
+}
+
+tbody button:nth-child(2) {
+  background-color: rgba(240, 57, 57, 0.744);
+}
